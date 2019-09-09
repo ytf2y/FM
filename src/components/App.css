@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 50px;
+}
+.nav a.active{
+    color: lightskyblue;
+    border-bottom: 1px solid deepskyblue;
+}
+
+.list{
+    margin: 20px;
+}
+.book{
+    display: flex;
+    margin: 20px 0;
+}
+.book .pic{
+    margin-right: 20px;
+}
+
+.btn{
+    line-height: 40px;
+    text-align: center;
+    margin: 20px;
+    color: white;
+    background-color: dodgerblue;
+}
